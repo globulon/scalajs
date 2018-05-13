@@ -4,3 +4,5 @@ libraryDependencies += "org.querki" %%% "jquery-facade" % "1.2"
 skip in packageJSDependencies := false
 jsDependencies +=
   "org.webjars" % "jquery" % "2.2.1" / "jquery.js" minified "jquery.min.js"
+
+jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
