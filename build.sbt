@@ -11,3 +11,7 @@ jsDependencies +=
 jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
 
 testFrameworks += new TestFramework("utest.runner.Framework")
+
+//Just if you want to have full optimization on each stage
+//C
+scalaJSStage in Global := FullOptStage
