@@ -1,3 +1,5 @@
+scalaVersion := "2.12.5"
+
 libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.5"
 libraryDependencies += "org.querki" %%% "jquery-facade" % "1.2"
 libraryDependencies += "com.lihaoyi" %%% "utest" % "0.6.3" % "test"

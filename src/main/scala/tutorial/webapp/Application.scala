@@ -1,3 +1,3 @@
 package tutorial.webapp
 
-trait Application extends Setup
+trait Application extends SetupUI
